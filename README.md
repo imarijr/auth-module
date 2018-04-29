@@ -2,7 +2,7 @@
 
 This repo serves as the seed project for the Parse Auth Module to learn advanced Angular 1.5 architecture and components!
 
-##To Install:
+## To Install:
 
 1. ```git clone https://github.com/michaelwicks/final-project-component-architecture-seed.git```
 
