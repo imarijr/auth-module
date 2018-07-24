@@ -9,7 +9,10 @@
     "deploy": "gulp production --deploy"
   },
   "license": "MIT",
-  "repository": "https://github.com/michaelwicks/final-project-seed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelwicks/final-project-seed.git"
+  },
   "dependencies": {
     "angular": "~1.5.8",
     "angular-loading-bar": "^0.9.0",
@@ -38,8 +41,14 @@
     "gulp-strip-debug": "^1.1.0",
     "gulp-uglify": "^2.0.0",
     "gulp-wrap": "^0.13.0",
+    "parse": "^1.11.1",
     "path": "^0.12.7",
     "run-sequence": "^1.1.5",
     "yargs": "^5.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/michaelwicks/final-project-seed/issues"
+  },
+  "homepage": "https://github.com/michaelwicks/final-project-seed#readme",
+  "main": "gulpfile.js"
 }
